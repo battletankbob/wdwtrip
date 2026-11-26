@@ -1,5 +1,5 @@
 import React from 'react'
-import './Epcot.css'
+import './Programs.css'
 import program_1 from '../../assets/mk-map-pen.png'
 import program_2 from '../../assets/map-2.png'
 
