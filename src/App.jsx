@@ -8,7 +8,6 @@ import Footer from './components/footer/Footer'
 import Epcot from './components/programs/Epcot'
 import Photo from './components/photo/Photo'
 import PhotoB from './components/photo/PhotoB'
-
 import MK from './components/programs/MK'
 
 const App = () => {
