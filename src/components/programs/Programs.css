@@ -1,0 +1,18 @@
+.programs {
+    margin-top: 80px;
+    /* width: 90%; */
+    display:block;
+    align-items: center;
+}
+.programs img {
+    max-width: fit-content;
+}
+
+/* ---- media query ---- */
+
+@media (max-width: 650px) {
+    .programs img {
+      width: 100%;
+
+    }
+}
