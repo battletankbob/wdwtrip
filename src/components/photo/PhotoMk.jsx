@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import next_icon from '../../assets/thisway.png'
 import back_icon from '../../assets/thatway.png'
+import './Photo.css'
 
 
 const Thumbnail = ({ arr, image, index}) => {
@@ -57,8 +58,8 @@ function PhotoMk(){
     <h1>SlideShow!?</h1>
     <Slideshow
       imgs={[
-        '../../src/assets/mk/20250124_083803.jpg',
-        '../../src/assets/mk/20250124_083810.jpg'
+        './src/assets/mk/20250124_083803.jpg',
+        './src/assets/mk/20250124_083810.jpg'
       ]}
     />
   </div>
