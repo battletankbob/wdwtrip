@@ -27,12 +27,12 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       <Link to='hero' smooth={true} offset={0} duration={500}><img src={logo} alt="logo" className='logo' /></Link>
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
-            <li><Link to='hero' smooth={true} offset={0} duration={500}>Disney Springs</Link></li>
-            <li><Link to='program' smooth={true} offset={-260} duration={500}>Magic Kingdom</Link></li>
+            <li><Link to='ds' smooth={true} offset={-260} duration={500}>Disney Springs</Link></li>
+            <li><Link to='mk' smooth={true} offset={-260} duration={500}>Magic Kingdom</Link></li>
+            <li><Link to='animalk' smooth={true} offset={-260} duration={500}>Animal Kingdom</Link></li>
+            <li><Link to='hw' smooth={true} offset={-260} duration={500}>Hollywood Studios</Link></li>
             <li><Link to='epcot' smooth={true} offset={-260} duration={500}>Epcot</Link></li>
-            <li><Link to='hero' smooth={true} offset={0} duration={500}>Hollywood Studios</Link></li>
-            <li><Link to='hero' smooth={true} offset={0} duration={500}>Animal Kingdom</Link></li>
-            <li><Link to='hero' smooth={true} offset={0} duration={500}><button className='btn'>Polynesian Resort</button></Link></li>
+            <li><Link to='poly' smooth={true} offset={-260} duration={500}><button className='btn'>Polynesian Resort</button></Link></li>
         </ul>
         <img tabIndex="0" src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>

@@ -37,7 +37,7 @@ const Slideshow = ({ imgs }) => {
     if (index === 0){
       setIndex(imgs.length - 1)
     }else{
-      setIndex(index - 1)
+      setIndex(index - 1)[lL=-o]
     }
   }
 
@@ -55,11 +55,10 @@ const Slideshow = ({ imgs }) => {
 
 function PhotoMk(){
   return (<div className='photos'>
-    <h1>SlideShow!?</h1>
-    <Slideshow
+    <h1>SlideShow!?</h1>    <Slideshow
       imgs={[
-        './src/assets/mk/20250124_083803.jpg',
-        './src/assets/mk/20250124_083810.jpg'
+        '../../src/assets/mk/20250124_083803.jpg',
+        '../../src/assets/mk/20250124_083810.jpg'
       ]}
     />
   </div>

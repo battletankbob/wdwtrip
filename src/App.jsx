@@ -13,6 +13,9 @@ import Mkpage from './pages/Mkpage'
 import Homepage from './pages/Homepage'
 import Dashboard from './pages/Dashboard'
 import PhotoMk from './components/photo/PhotoMk'
+import Mkfountain from './components/photo/mk-photos/Mkfountain'
+import Mkskipper from './components/photo/mk-photos/Mk-skipper'
+import Mkgate from './components/photo/mk-photos/Mkgate'
 
 
 
@@ -20,21 +23,16 @@ const App = () => {
 
   return (
     <div>
-      {/* <Navbar/>  */}
-      {/* <Hero/> */}
-      {/* <Title title="Magic Kingdom Park" subTitle="Friday - January 24th, 2025"/> */}
-      {/* <Programs/> */}
-      {/* <Title title="Epcot" subTitle="Monday - January 27th, 2025"/>
-      <Epcot/>
-      <MK/> */}
-      {/* <PhotoMk/> */}
       <Routes>
         <Route path="/wdwtrip/" element={<Programs />} />
-        <Route path="/wdwtrip/mk-fountain" element={<Mkpage />} />
-        <Route path="/wdwtrip/dashboard" element={<Dashboard />} />
+        {/* MK */}
+        <Route path="/wdwtrip/mk-fountain" element={<Mkfountain />} />
+        <Route path="/wdwtrip/mk-skipper" element={<Mkskipper />} />
+        <Route path="/wdwtrip/mk-gate" element={<Mkgate />} />
       </Routes>
       <Footer/>
     </div>
+  
 
 
 

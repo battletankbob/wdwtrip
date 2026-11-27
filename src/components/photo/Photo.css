@@ -82,6 +82,8 @@
     max-height: 1200px;
 }
 
+
+
 /* .actions {
     position: absolute;
     top: 50%;
@@ -109,3 +111,10 @@
     border-radius: 15px;
     padding-top: 5px;
 } */
+
+@media (max-width: 1000px) {
+    .mainImg {
+      width: 100%;
+
+    }
+}

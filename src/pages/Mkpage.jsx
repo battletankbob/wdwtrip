@@ -9,7 +9,6 @@ const Thumbnail = ({ arr, image, index}) => {
     {arr.map((imgsrc, i) => (
       <img 
         key={i} 
-        height="50" 
         src={imgsrc} 
         onClick={() => image(i)}
         className={index === i ? 'active' : ''} />
@@ -65,6 +64,7 @@ function Mkpage(){
   </div>
   )
 }
+
 
 export default Mkpage
 

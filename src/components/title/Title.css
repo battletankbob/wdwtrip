@@ -4,7 +4,9 @@
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
+    /* margin: auto; */
     margin: 70px 0 30px 0;
+    /* background-color: #f5f5f5; */
 }
 .title h2{
     font-size: 32px;
