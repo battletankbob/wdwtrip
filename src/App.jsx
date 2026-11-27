@@ -26,15 +26,13 @@ const App = () => {
       <Routes>
         <Route path="/wdwtrip/" element={<Programs />} />
         {/* MK */}
-        <Route path="/wdwtrip/mk-fountain" element={<Mkfountain />} />
-        <Route path="/wdwtrip/mk-skipper" element={<Mkskipper />} />
-        <Route path="/wdwtrip/mk-gate" element={<Mkgate />} />
+        <Route path="/mk-fountain" element={<Mkfountain />} />
+        <Route path="/mk-skipper" element={<Mkskipper />} />
+        <Route path="/mk-gate" element={<Mkgate />} />
+        <Route path="/" element={<Programs />} />
       </Routes>
       <Footer/>
     </div>
-  
-
-
 
   );
 };

@@ -61,6 +61,7 @@ function Mkgate(){
     <p>Arrived at the early hours day, rode the monorail, and waitied for the gates to open.</p>
         <Slideshow
       imgs={[
+        './src/assets/mk/20250124_073953.jpg',
         './src/assets/mk/20250124_074000.jpg',
         './src/assets/mk/20250124_075007.jpg',
         './src/assets/mk/20250124_075008.jpg',
@@ -71,9 +72,11 @@ function Mkgate(){
         './src/assets/mk/20250124_080103.jpg'
       ]}
     />
-    {/* <video width="750" height="500" controls >
+    <h2>On our way!</h2>
+    <p>First park day here we come!</p>
+    <video controls >
       <source src={video} type="video/mp4"/>
-     </video> */}
+     </video>
   </div>
   )
 }

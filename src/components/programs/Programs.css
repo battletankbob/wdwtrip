@@ -12,12 +12,30 @@
     background-color: #f5f5f5;
 }
 
+/* .map-b {
+    display: block;
+}
+.map-sm {
+      display:none;
+
+    } */
+
 
 /* ---- media query ---- */
 
+/* @media (max-width: 1200px) {
+    .map-b {
+        display: none;
+    }
+    .map-sm {
+      display:block;
+      width: 100%;
+    }
+} */
+
 @media (max-width: 650px) {
     .programs img {
-      /* width: 100%; */
+      width: 100%;
 
     }
 }
