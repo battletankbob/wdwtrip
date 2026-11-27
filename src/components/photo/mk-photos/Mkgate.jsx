@@ -71,9 +71,9 @@ function Mkgate(){
         './src/assets/mk/20250124_080103.jpg'
       ]}
     />
-    <video width="750" height="500" controls >
+    {/* <video width="750" height="500" controls >
       <source src={video} type="video/mp4"/>
-     </video>
+     </video> */}
   </div>
   )
 }
